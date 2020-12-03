@@ -5,10 +5,10 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 // pitu.tk/:code -> RedirectPage
 // pitu.tk/:code/stats -> StatsPage
 
-import HomePage from '../pages/HomePage';
-import RedirectPage from '../pages/RedirectPage';
-import StatsPage from '../pages/StatsPage';
-import NotFoundPage from '../pages/NotFoundPage';
+import HomePage from '../pages/HomePage/index';
+import RedirectPage from '../pages/RedirectPage/index';
+import StatsPage from '../pages/StatsPage/index';
+import NotFoundPage from '../pages/NotFoundPage/index';
 
 function Routes(){
     return(
